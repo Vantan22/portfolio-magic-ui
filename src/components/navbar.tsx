@@ -66,12 +66,12 @@ export default function Navbar() {
           <Tooltip>
             <TooltipTrigger asChild>
               <Link
-                href="/Charlie-Nguyen-Resume.pdf"
+                href="/CV_TanNV.docx"
                 className={cn(
                   buttonVariants({ variant: "ghost", size: "icon" }),
                   "size-12"
                 )}
-                download="Charlie-Nguyen-Resume.pdf"
+                download="CV_TanNV.docx"
                 target="_blank"
                 rel="noopener noreferrer"
               >
