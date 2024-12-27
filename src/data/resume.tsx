@@ -133,7 +133,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/may-bom.png",
+      image: "/new.jpg",
       video: "",
     },
     {
