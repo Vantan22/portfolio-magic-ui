@@ -10,12 +10,15 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import { DownloadIcon } from "lucide-react";
+import Navbar from "@/components/navbar";
 
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
+      <Navbar />
+
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
